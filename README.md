@@ -1,5 +1,6 @@
-# pyGeoInfoVS
-A Geographical information vizualization shootout: setting up a comparison of current python visualization options and allowing for their comparison. 
+# pyGeoInfoVS - A Python Geographical information vizualization shootout 
+
+Setting up a comparison of current python visualization options and allowing for their comparison. 
 
 This shootout has been put up here by me (Martin Tomko, @dinomirMT, www.tomko.org)
 
