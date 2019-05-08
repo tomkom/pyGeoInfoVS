@@ -111,11 +111,11 @@ I would also add date of last release, and date of last commit, based on github.
 
 ### Static:
 - Matplotlib (without Basemap - dead branch of the project?). Most others build on matplotlib, so this is clearly going to be the leader, but the ease of interface note above matters.
-- Cartopy
-- Geopandas plot
+- Cartopy (https://scitools.org.uk/cartopy/docs/latest/ )
+- Geopandas plot (http://geopandas.org/mapping.html )
 - Geoplot (https://github.com/ResidentMario/geoplot)
 - Geoplotlib (https://github.com/andrea-cuttone/geoplotlib ), requires pyglet 
-- Geoviews
+- Geoviews (https://github.com/pyviz/geoviews ) based on Holoviews (data viz)
 - splot (github.com/pysal/splot)
 - rasterio
 - QGIS NetAPI (?)
