@@ -1,10 +1,14 @@
 # pyGeoInfoVS - A Python Geographical information vizualization shootout 
 
-Setting up a comparison of current python visualization options and allowing for their comparison. 
+Setting up a comparison of current Open Source (any licence) Python visualization options and allowing for their comparison. 
 
 This shootout has been put up here by me (Martin Tomko, @dinomirMT, www.tomko.org)
 
-Work in progress, please contribute.
+Work in progress, please contribute. PLease clearly state in your contributions (in paritcular, full notebooks) some identifying/contact parameters, and possibly if you are a maintainer of the demonstrated packages.
+
+Also add your contribution name up here (Name, handle, contribution)
+
+I will try to produce a workshop/conference (one of the GIScience conferences, I would assume, or possibly a FOSS4Gxx one) writeup from this, with shared authorship form contributors.
 
 ## Aims
 
