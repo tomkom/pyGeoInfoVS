@@ -42,19 +42,24 @@ As an etalon, the consistency and readability of the ggplot ecosystem (R) is sou
 ### Core static capabilities
 
 - Read in spatial data in lon/lat
-- Display in WGS84/Web pseudomercator
+- Display in WGS84/Web pseudomercator (renders any coordinates values as they are, projection is done in data wrangling pipeline)
 - Apply styling to lines, points, polygons, or raster
 - Add pre-rendered basemap
 - BOLTSS (border, orientation, legend, title, scale, source)
 - Export to graphics file in print quality
-- Show in jupyter notebook
+- Easily displays in jupyter notebook
 
 ### Nice to haves (static spatial visualizations)
 
-- Plot in facet by time
+- Parameter-based reprojection of data
+- Graticules, meridian lines
 - Plot together with other info plots
+- Faceted plot ( e.g., by time)
+- Export vectors in a vector format, for post-processing in Inkscape or similar
+- 3D oblique view
+- Animated gif exports for animations
 
-## Compared capabilities - Dynamic spatial visualizaitons
+## Compared capabilities - Dynamic spatial visualizations
 
 ### Core dynamic capabilities
 
@@ -65,6 +70,8 @@ As an etalon, the consistency and readability of the ggplot ecosystem (R) is sou
 ### Nice to haves (dynamic spatial information visualizations)
 
 - brushing/interaction with other info-viz
+- dynamic change of transparency and other visual parameters (sizes of symbols, colours)
+- zoom dependent display of data
 
 ### Other considerations
 
@@ -74,4 +81,74 @@ As an etalon, the consistency and readability of the ggplot ecosystem (R) is sou
 
 Data with a permissive, open licence will be used.
 
-## Compared 
+We need, for the same region (best, two sets of data - global and city scales)
+
+### Vector data
+- POI data
+- a point layer, to assess visual clutter, point styling, etc (distinct to POI data, in some respect)
+- Linear data (roads, train lines)
+- Polygonal data (building footprints)
+- thematic polygon data (Aggregate census data ,for choropleth maps)
+- Contour lines
+- Trajectory data 
+- Mesh?
+- 3D buildings
+
+### Raster data
+
+- Sattelite imagery
+- Rendered basemap tiles endpoint
+- DEM data
+- thematic raster layer (Landuse/landcover type dataset)
+
+## Compared libraries (add links):
+I think as we start drawinfg conclusions, we may start awarding 0-5 satrs to these below...
+
+### Static:
+- Matplotlib (without Basemap - dead branch of the project?)
+- Cartopy
+- Geopandas plot
+- Geoplot (https://github.com/ResidentMario/geoplot)
+- Geoplotlib
+- Geoviews
+- splot (github.com/pysal/splot)
+- rasterio
+- QGIS NetAPI (?)
+- xarray_dev (rasters)
+
+
+### Dynamic:
+
+- Folium
+- ipyLeaflet (https://github.com/jupyter-widgets/ipyleaflet)
+- mplleaflet
+- Dash + plotly (Is this OS? Can this do maps? Or is this general purpose viz https://dash.plot.ly/)
+
+### General purpose viz environments
+
+- matplotlib
+- altair
+- bokeh
+- branca
+- ggplot (https://pypi.org/project/ggplot/ )
+- seaborn ()
+- pygal
+- altair
+- leather (https://leather.readthedocs.io/en/0.3.3/)
+
+
+
+## Resources:
+
+### Mapp related
+- https://automating-gis-processes.github.io/2018/lessons/L5/overview.html
+- http://darribas.org/gds18/labs/Lab_03.html 
+- https://blog.ouseful.info/2019/04/02/fragment-components-for-rolling-your-own-gis-inside-jupyter-notebooks/
+
+
+### General viz libraries:
+
+- https://www.fusioncharts.com/blog/best-python-data-visualization-libraries/
+- https://towardsdatascience.com/the-next-level-of-data-visualization-in-python-dd6e99039d5e
+
+
