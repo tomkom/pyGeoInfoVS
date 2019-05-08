@@ -25,6 +25,10 @@ This excercise is based on a few main sore points many of use experience:
 
 In both of these use cases, I am sick and tired of patching a single story based on a heterogenous assortment of libraries that I have to use - I would like one library that somehow covers most (not all). In teaching, this is an absolute requirement, in particular as it is a nightmare to maintain teaching materials and code from eyar to year, and track the maturity of libraries. 
 
+This is reflected in the variety of Python viz libraries, referenced here: https://www.anaconda.com/python-data-visualization-2018-why-so-many-libraries/
+
+Variety is great - but pragmatic decisions include ease of API, consistency, active maintenance, and others.
+
 As an etalon, the consistency and readability of the ggplot ecosystem (R) is sought. That has a learning curve as well, of course, but the idioms are consistent.
 
 ## Approach
@@ -103,13 +107,14 @@ We need, for the same region (best, two sets of data - global and city scales)
 
 ## Compared libraries (add links):
 I think as we start drawinfg conclusions, we may start awarding 0-5 satrs to these below...
+I would also add date of last release, and date of last commit, based on github. NOt sure if this can be automatically updated in some simple way.
 
 ### Static:
-- Matplotlib (without Basemap - dead branch of the project?)
+- Matplotlib (without Basemap - dead branch of the project?). Most others build on matplotlib, so this is clearly going to be the leader, but the ease of interface note above matters.
 - Cartopy
 - Geopandas plot
 - Geoplot (https://github.com/ResidentMario/geoplot)
-- Geoplotlib
+- Geoplotlib (https://github.com/andrea-cuttone/geoplotlib ), requires pyglet 
 - Geoviews
 - splot (github.com/pysal/splot)
 - rasterio
@@ -135,6 +140,8 @@ I think as we start drawinfg conclusions, we may start awarding 0-5 satrs to the
 - pygal
 - altair
 - leather (https://leather.readthedocs.io/en/0.3.3/)
+- Holoviews
+- Netwokrx/igraph (often usable for spatial, but out of consideration here - assuem we can compute the netowkr parameters and store as attribute, we just want to plot the map now)
 
 
 
