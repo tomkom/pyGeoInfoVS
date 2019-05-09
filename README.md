@@ -151,6 +151,7 @@ I would also add date of last release, and date of last commit, based on github.
 - https://automating-gis-processes.github.io/2018/lessons/L5/overview.html
 - http://darribas.org/gds18/labs/Lab_03.html 
 - https://blog.ouseful.info/2019/04/02/fragment-components-for-rolling-your-own-gis-inside-jupyter-notebooks/
+- https://geohackweek.github.io/vector/06-geopandas-advanced/ (visualizations with geopandas, mplt, have raster and vectors and legends))
 
 
 ### General viz libraries:
